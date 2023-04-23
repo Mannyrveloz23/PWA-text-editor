@@ -39,6 +39,10 @@ Contributions are not currently being accepted for this project.
 
 The walkthrough video demonstrates the functionality of the PWA and explains how it works. The video can be found at [Walkthrough Video](https://drive.google.com/file/d/1MWq2O29GBMsNqatajjaj1QWBu6YFSdtJ/view).
 
+
+https://user-images.githubusercontent.com/116623940/233840964-3eed53dd-543c-4ad5-9820-03aedace938b.mov
+
+
 ## Repo
 
 The deployed J.A.T.E. application can be found at [Text Editor](https://github.com/Mannyrveloz23/PWA-text-editor).
