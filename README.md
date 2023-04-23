@@ -1,59 +1,44 @@
-# 19 Progressive Web Applications (PWA): Text Editor
+# Homework README - Text Editor PWA
 
-## Your Task
+## Description
 
-Explore the completed J.A.T.E application that has been provided to gain a deeper understanding of how a Progressive Web Application (PWA) is properly configured in a web application.
+This project is about exploring the completed J.A.T.E application, which is a Progressive Web Application (PWA), to gain a deeper understanding of how a PWA is properly configured in a web application. The goal is to record a video between 90-seconds to 2-minutes in length of the J.A.T.E application, explaining the key components that comprise its PWA.
 
-Your task is to record a video between 90-seconds to 2-minutes in length of you narrating a screen share of the J.A.T.E application while explaining the key components that comprise it's PWA.
+## Table of Contents
 
-## User Story
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Contributions](#contributions)
+- [Walkthrough Video](#walkthrough-video)
+- [Repo](#repo)
 
-```md
-AS A developer
-I WANT to better understand how a PWA is setup
-SO THAT I can explain the purpose in a technical setting
-```
+## Installation
 
-## Acceptance Criteria
+To install and run the application, follow these steps:
 
-```md
-GIVEN a completed text editor web application
-WHEN I showcase the application in the video
-THEN I should be able to explain all aspects of a PWA
-WHEN I show the webpack plugins
-THEN I explain how I have a generated HTML file, service worker, and a manifest file
-WHEN I open the text editor
-THEN I show that IndexedDB has immediately created a database storage
-WHEN I enter content and subsequently click off of the DOM window
-THEN I explain how the content in the text editor has been saved with IndexedDB
-WHEN I reopen the text editor after closing it
-THEN I explain how the content in the text editor has been retrieved from our IndexedDB
-WHEN I load my web application
-THEN I should have, and can explain, the registered service worker using workbox
-```
+1. Clone the repository to your local machine.
+2. In the project directory, run `npm install` to install the necessary dependencies.
+3. Run `npm run build` to create an optimized build of the application.
+4. The build will be generated in the `dist` folder. You can serve the build using any web server of your choice.
+5. Now you can use a development server by running `npm start dev`.
 
-## Grading Requirements
+## Usage
 
-> **Note**: If a Challenge assignment submission is marked as “0”, it is considered incomplete and will not count towards your graduation requirements. Examples of incomplete submissions include the following:
->
-> - A repository that has no code
->
-> - A repository that includes a unique name but nothing else
->
-> - A repository that includes only a README file but nothing else
->
-> - A repository that only includes starter code
+The J.A.T.E application is a text editor that has been developed as a Progressive Web Application (PWA). It allows users to enter and save text content, which is stored in an IndexedDB database. The application also uses Workbox to register a service worker, which improves performance by caching assets and allowing the application to work offline.
 
-This Challenge is graded based on the following criteria:
+## License
 
-### Walkthrough Video
+No license.
 
-- A walkthrough video that demonstrates the functionality, and your understanding of the Progressive Web Application, and a link to the video should be included in your README file.
+## Contributions
 
-## Review
+Contributions are not currently being accepted for this project.
 
-You are required to submit the following for review:
+## Walkthrough Video
 
-- The URL of the video explanation
+The walkthrough video demonstrates the functionality of the PWA and explains how it works. The video can be found at [Walkthrough Video](https://drive.google.com/file/d/1MWq2O29GBMsNqatajjaj1QWBu6YFSdtJ/view).
 
-- The URL of the J.A.T.E. application deployed to your GitHub repository, with a unique name and a README describing the project
+## Repo
+
+The deployed J.A.T.E. application can be found at [Text Editor](https://github.com/Mannyrveloz23/PWA-text-editor).
